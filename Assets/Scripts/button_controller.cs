@@ -8,6 +8,7 @@ public class button_controller : MonoBehaviour
     public Color pressed_color;
     public Color default_color;
     private score_tracker ST;
+    private Health_tracker HT;
     
 
     public KeyCode Attack_Key;
@@ -18,6 +19,7 @@ public class button_controller : MonoBehaviour
     {
         SR = GetComponentInParent<SpriteRenderer>();
         ST = GameObject.FindGameObjectWithTag("ScoreTracker").transform.GetComponent<score_tracker>();
+        HT = GameObject.FindGameObjectWithTag("HealthTracker").transform.GetComponent<Health_tracker>();
     }
 
     // Update is called once per frame
@@ -44,18 +46,21 @@ public class button_controller : MonoBehaviour
                     CheckRay.transform.gameObject.SetActive(false);
                     Debug.Log("Hit");
                     ST.UpdateText(1);
+                    HT.UpdateHealth(5);
                 }
                 else
                 {
                     CheckRay.transform.gameObject.SetActive(false);
                     Debug.Log("Miss"); 
                     ST.UpdateText(-1);
+                    HT.UpdateHealth(-10);
                 }
             }
             else
             {
                 Debug.Log("Miss");
                 ST.UpdateText(-1);
+                HT.UpdateHealth(-5);
             }
         }
     }
