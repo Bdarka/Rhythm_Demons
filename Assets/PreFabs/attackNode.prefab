@@ -82,11 +82,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1587164696746992496}
   - component: {fileID: 1587164696746992497}
-  - component: {fileID: 1587164696746992502}
-  - component: {fileID: 1587164696746992499}
+  - component: {fileID: 4099695997361935124}
   m_Layer: 0
   m_Name: attackNode
-  m_TagString: Untagged
+  m_TagString: attack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,32 +156,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &1587164696746992502
-CircleCollider2D:
+--- !u!135 &4099695997361935124
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587164696746992500}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.4267323, y: -0.07368159}
-  serializedVersion: 2
-  m_Radius: 0.51728487
---- !u!114 &1587164696746992499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1587164696746992500}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06405bc8089d57a40a2466af482a73e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  can_be_pressed: 0
+  serializedVersion: 2
+  m_Radius: 0.4934733
+  m_Center: {x: -0.44568104, y: -0.051924415, z: -0.96071666}

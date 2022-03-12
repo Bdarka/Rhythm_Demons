@@ -794,9 +794,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85cbeb0bba2e2474e893c23c2b2f6a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pressed_color: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
-  default_color: {r: 1, g: 1, b: 1, a: 1}
-  key_to_use: 32
+  Attack_Key: 0
+  Parry_Key: 0
 --- !u!58 &1055402474
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -890,9 +889,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85cbeb0bba2e2474e893c23c2b2f6a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pressed_color: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
-  default_color: {r: 1, g: 1, b: 1, a: 1}
-  key_to_use: 323
+  Attack_Key: 0
+  Parry_Key: 0
 --- !u!50 &1055402478
 Rigidbody2D:
   serializedVersion: 4
@@ -1124,7 +1122,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+    - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
 --- !u!4 &1587164695839077670 stripped
 Transform:
