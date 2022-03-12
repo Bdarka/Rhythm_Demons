@@ -5,8 +5,8 @@ using UnityEngine;
 public class button_controller : MonoBehaviour
 {
     private SpriteRenderer SR;
-    //public Sprite Default_image;
-    //public Sprite Pressed_image;
+    public Color pressed_color;
+    public Color default_color;
     private score_tracker ST;
     
 
@@ -16,7 +16,7 @@ public class button_controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SR = GetComponent<SpriteRenderer>();
+        SR = GetComponentInParent<SpriteRenderer>();
         ST = GameObject.FindGameObjectWithTag("ScoreTracker").transform.GetComponent<score_tracker>();
     }
 
@@ -35,6 +35,7 @@ public class button_controller : MonoBehaviour
     {
         if (Input.GetKeyDown(key))
         {
+            SR.color = pressed_color;
             RaycastHit CheckRay;
             if (Physics.SphereCast(transform.position, 0.5f, -transform.forward, out CheckRay))
             {
@@ -51,6 +52,11 @@ public class button_controller : MonoBehaviour
                     ST.UpdateText(-1);
                 }
             }
+            else
+            {
+                Debug.Log("Miss");
+                ST.UpdateText(-1);
+            }
         }
     }
 
@@ -58,6 +64,7 @@ public class button_controller : MonoBehaviour
     {
         if (Input.GetKeyUp(key))
         {
+            SR.color = default_color;
         }
     }
 }
