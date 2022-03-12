@@ -7,7 +7,7 @@ public class button_controller : MonoBehaviour
     private SpriteRenderer SR;
     //public Sprite Default_image;
     //public Sprite Pressed_image;
-
+    private score_tracker ST;
     
 
     public KeyCode Attack_Key;
@@ -17,7 +17,7 @@ public class button_controller : MonoBehaviour
     void Start()
     {
         SR = GetComponent<SpriteRenderer>();
-        SR = GetComponent<SpriteRenderer>();
+        ST = GameObject.FindGameObjectWithTag("ScoreTracker").transform.GetComponent<score_tracker>();
     }
 
     // Update is called once per frame
@@ -42,11 +42,13 @@ public class button_controller : MonoBehaviour
                 {
                     CheckRay.transform.gameObject.SetActive(false);
                     Debug.Log("Hit");
+                    ST.UpdateText(1);
                 }
                 else
                 {
                     CheckRay.transform.gameObject.SetActive(false);
-                    Debug.Log("Miss");
+                    Debug.Log("Miss"); 
+                    ST.UpdateText(-1);
                 }
             }
         }
