@@ -2,20 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class note_obj : MonoBehaviour
+public class note_attack : MonoBehaviour
 {
     public bool can_be_pressed = false;
-    public KeyCode key_to_press;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (can_be_pressed && Input.GetKeyDown(key_to_press))
+        if (can_be_pressed && Input.GetMouseButtonDown(0))
         {
             gameObject.SetActive(false);
             Destroy(this.gameObject);
@@ -37,4 +37,5 @@ public class note_obj : MonoBehaviour
             can_be_pressed = false;
         }
     }
+
 }
