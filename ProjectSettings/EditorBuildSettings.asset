@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/GameOverScene.unity
+    guid: 28b934c4e9029e94cb781593aaa16532
+  - enabled: 1
+    path: Assets/Scenes/ControlsScreen.unity
+    guid: c7631ba4a28390444b806d920f3fde5c
+  - enabled: 1
+    path: Assets/Scenes/CreditScene.unity
+    guid: d6877865ed2610044972aad9d6d96d06
   m_configObjects: {}
