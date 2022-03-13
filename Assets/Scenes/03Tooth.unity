@@ -251,6 +251,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: MultiplierTracker
       objectReference: {fileID: 0}
+    - target: {fileID: 6027220539147744237, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
+      propertyPath: game_over_level
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6027220540701244124, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
       propertyPath: m_Name
       value: UI_Canvas

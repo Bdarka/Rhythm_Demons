@@ -127,10 +127,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85cbeb0bba2e2474e893c23c2b2f6a57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Enemy_Animator: {fileID: 0}
   pressed_color: {r: 0, g: 0, b: 0, a: 0}
   default_color: {r: 0, g: 0, b: 0, a: 0}
+  multiplier: 1
   Attack_Key: 323
   Parry_Key: 32
+  Game_Over_Level: 9
 --- !u!1 &5168576943141590845
 GameObject:
   m_ObjectHideFlags: 0

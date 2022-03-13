@@ -40,10 +40,6 @@ public class button_controller : MonoBehaviour
         input_release(Parry_Key);
         input_release(Attack_Key);
 
-        if (HT.HP <= 0)
-        {
-            StartCoroutine(GameOver(0));
-        }
     }
 
     void input_check(KeyCode key, string correct_tag)
@@ -105,11 +101,6 @@ public class button_controller : MonoBehaviour
         yield return null;
     }
 
-    IEnumerator GameOver(float transition_time)
-    {
-        yield return new WaitForSeconds(transition_time);
-        SceneManager.LoadScene(Game_Over_Level);
-        yield return null;
-    }
+    
 
 }

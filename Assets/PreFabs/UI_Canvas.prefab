@@ -323,7 +323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score_text: {fileID: 6027220540136136832}
   HP: 100
-  game_over_level: 0
+  game_over_level: 9
 --- !u!1 &6027220539432953832
 GameObject:
   m_ObjectHideFlags: 0
