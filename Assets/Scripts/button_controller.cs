@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class button_controller : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class button_controller : MonoBehaviour
 
     public KeyCode Attack_Key;
     public KeyCode Parry_Key;
-
+    public int Game_Over_Level;
     
 
     // Start is called before the first frame update
@@ -38,8 +39,11 @@ public class button_controller : MonoBehaviour
 
         input_release(Parry_Key);
         input_release(Attack_Key);
-        
-        
+
+        if (HT.HP <= 0)
+        {
+            StartCoroutine(GameOver(0));
+        }
     }
 
     void input_check(KeyCode key, string correct_tag)
@@ -98,6 +102,13 @@ public class button_controller : MonoBehaviour
         Debug.Log("Waiting");
         yield return new WaitForSeconds(waitTime);
         Debug.Log("Waited");
+        yield return null;
+    }
+
+    IEnumerator GameOver(float transition_time)
+    {
+        yield return new WaitForSeconds(transition_time);
+        SceneManager.LoadScene(Game_Over_Level);
         yield return null;
     }
 
