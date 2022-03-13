@@ -1176,7 +1176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1224931239698988217, guid: fdb29093d5c0f064ebdbbca7344d8778, type: 3}
       propertyPath: timer
-      value: 200
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 1224931239698988217, guid: fdb29093d5c0f064ebdbbca7344d8778, type: 3}
       propertyPath: SceneToLoad
