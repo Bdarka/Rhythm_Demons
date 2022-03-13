@@ -941,6 +941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss
       objectReference: {fileID: 0}
+    - target: {fileID: 3445277070051499325, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
 --- !u!1001 &5142406462066023864
@@ -1134,7 +1138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.285016
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1171,10 +1175,6 @@ PrefabInstance:
     - target: {fileID: 7702155933419043769, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
       propertyPath: m_Name
       value: Snake
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043769, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
