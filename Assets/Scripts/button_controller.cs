@@ -5,6 +5,7 @@ using UnityEngine;
 public class button_controller : MonoBehaviour
 {
     //public Animator Enemy_Animation_Controller;
+    public Animator Enemy_Animator;
     private SpriteRenderer SR;
     public Color pressed_color;
     public Color default_color;
@@ -48,6 +49,10 @@ public class button_controller : MonoBehaviour
                 if (CheckRay.transform.CompareTag(correct_tag))
                 {
                     CheckRay.transform.gameObject.SetActive(false);
+                    if (Enemy_Animator!=null)
+                    {
+                        AnimTrigger("bool", "Hit");
+                    }
                     multiplier += 1;
                     Debug.Log("Hit");
                     ST.UpdateText(10 * multiplier);
@@ -80,6 +85,22 @@ public class button_controller : MonoBehaviour
         if (Input.GetKeyUp(key))
         {
             SR.color = default_color;
+        }
+    }
+
+    void AnimTrigger(string triggerType, string triggerName)
+    {
+        switch (triggerType)
+        {
+            case "bool":
+                Enemy_Animator.SetBool(triggerName, true);
+                break;
+            case "int":
+                Enemy_Animator.SetInteger(triggerName, 1);
+                break;
+            default:
+                Debug.Log("invalid animation type");
+                break;
         }
     }
 }
