@@ -1200,6 +1200,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 707552564678730446, guid: 05af64a41cbf3ea4493c75c5ee4ccf8f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 707552564678730447, guid: 05af64a41cbf3ea4493c75c5ee4ccf8f, type: 3}
       propertyPath: m_Name
       value: note_track_boss
