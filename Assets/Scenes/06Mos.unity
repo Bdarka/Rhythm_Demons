@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (36)
@@ -240,6 +244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -304,6 +312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -320,6 +332,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (27)
@@ -430,6 +446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -494,6 +514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -510,6 +534,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (2)
@@ -620,6 +648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -628,6 +660,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1587164696746992496, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
   m_PrefabInstance: {fileID: 123484425}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &132095963 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 747800680712416114, guid: e0885b795d3ae1540bd4f7e8531adc08, type: 3}
+  m_PrefabInstance: {fileID: 1205057619}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &139843340
 PrefabInstance:
@@ -684,6 +721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -700,6 +741,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (12)
@@ -762,6 +807,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (29)
@@ -824,6 +873,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (28)
@@ -934,6 +987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -1003,6 +1060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -1067,6 +1128,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -1131,6 +1196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -1142,6 +1211,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (19)
@@ -1204,6 +1277,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (49)
@@ -1271,6 +1348,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (4)
@@ -1381,6 +1462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -1445,6 +1530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -1461,6 +1550,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (46)
@@ -1523,6 +1616,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (3)
@@ -1585,6 +1682,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (5)
@@ -1695,6 +1796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -1711,6 +1816,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (39)
@@ -1773,6 +1882,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (34)
@@ -1883,6 +1996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -1947,6 +2064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2011,6 +2132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2075,6 +2200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2139,6 +2268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2203,6 +2336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2219,6 +2356,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (35)
@@ -2329,6 +2470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2393,6 +2538,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2457,6 +2606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2473,6 +2626,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (14)
@@ -2583,6 +2740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2647,6 +2808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2711,6 +2876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2775,6 +2944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2839,6 +3012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2855,6 +3032,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (17)
@@ -2965,6 +3146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -2981,6 +3166,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (40)
@@ -3043,6 +3232,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (42)
@@ -3110,6 +3303,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (31)
@@ -3220,6 +3417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -3299,121 +3500,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &757366957
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3558966572755642532, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_TagString
-      value: MultiplierTracker
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244124, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_Name
-      value: UI_Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244124, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7343143120089255809, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9180468785484605591, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
-      propertyPath: m_Text
-      value: 'Combo Bonus: x1'
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
 --- !u!1001 &765176256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3469,6 +3557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -3533,6 +3625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -3597,6 +3693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -3661,6 +3761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -3677,6 +3781,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (15)
@@ -3739,6 +3847,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (53)
@@ -3849,6 +3961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -3865,6 +3981,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (43)
@@ -4000,7 +4120,7 @@ Transform:
   m_LocalScale: {x: 307.53, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &873211939
 PrefabInstance:
@@ -4057,6 +4177,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -4073,6 +4197,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (30)
@@ -4183,6 +4311,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -4199,6 +4331,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (48)
@@ -4261,6 +4397,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (21)
@@ -4488,7 +4628,7 @@ Transform:
   - {fileID: 496350413}
   - {fileID: 1779898656}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &937099916
 AudioSource:
@@ -4586,6 +4726,63 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &940495110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8868545262867997962, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868545262867997962, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868545262867997962, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868545262867997962, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 145.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868545262867997962, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868545262867997962, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868545262867997962, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868545262867997962, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868545262867997962, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868545262867997962, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868545262867997962, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868545262867997963, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
+      propertyPath: m_Name
+      value: bg
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0fc7d8691c18a3346aac75c771abd230, type: 3}
 --- !u!1001 &955260361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4593,6 +4790,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (9)
@@ -4643,67 +4844,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a2653d617706474488febbb2953fe57, type: 3}
---- !u!1001 &957775474
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1994786301360008774, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_Name
-      value: Tooth
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994786301360008774, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994786301360008775, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994786301360008775, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.720421
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994786301360008775, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.140404
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994786301360008775, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -15.48636
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994786301360008775, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994786301360008775, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994786301360008775, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994786301360008775, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994786301360008775, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994786301360008775, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1994786301360008775, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
 --- !u!1001 &965844587
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4759,6 +4899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -4823,6 +4967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -4839,6 +4987,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (52)
@@ -4894,67 +5046,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7709429121048909629, guid: 9a2653d617706474488febbb2953fe57, type: 3}
   m_PrefabInstance: {fileID: 997012343}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1010098679
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.1711396
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.285016
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.643833
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043768, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043769, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_Name
-      value: Snake
-      objectReference: {fileID: 0}
-    - target: {fileID: 7702155933419043769, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b8700e1c2797fb245a78bbfe575d2722, type: 3}
 --- !u!1001 &1040538430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4962,6 +5053,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (24)
@@ -5127,7 +5222,7 @@ Transform:
   m_LocalScale: {x: 5.4319324, y: 5.4319324, z: 0.7482}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1110599295
 PrefabInstance:
@@ -5184,6 +5279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -5317,6 +5416,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (13)
@@ -5427,6 +5530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -5443,6 +5550,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (41)
@@ -5553,6 +5664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -5590,7 +5705,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1169176393
 PrefabInstance:
@@ -5647,6 +5762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -5663,6 +5782,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (6)
@@ -5773,6 +5896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -5789,21 +5916,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 858752678, guid: e0885b795d3ae1540bd4f7e8531adc08, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 747800679748146202, guid: e0885b795d3ae1540bd4f7e8531adc08, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 747800680712416112, guid: e0885b795d3ae1540bd4f7e8531adc08, type: 3}
       propertyPath: m_Name
       value: Mosquito
       objectReference: {fileID: 0}
     - target: {fileID: 747800680712416112, guid: e0885b795d3ae1540bd4f7e8531adc08, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 747800680712416115, guid: e0885b795d3ae1540bd4f7e8531adc08, type: 3}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 747800680712416115, guid: e0885b795d3ae1540bd4f7e8531adc08, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 747800680712416115, guid: e0885b795d3ae1540bd4f7e8531adc08, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 747800680712416115, guid: e0885b795d3ae1540bd4f7e8531adc08, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 747800680712416115, guid: e0885b795d3ae1540bd4f7e8531adc08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0000002384186
+      value: 0.00000026226
       objectReference: {fileID: 0}
     - target: {fileID: 747800680712416115, guid: e0885b795d3ae1540bd4f7e8531adc08, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5898,6 +6045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -5914,6 +6065,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (37)
@@ -6024,6 +6179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -6040,6 +6199,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (8)
@@ -6095,67 +6258,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7709429121048909629, guid: 9a2653d617706474488febbb2953fe57, type: 3}
   m_PrefabInstance: {fileID: 1236704427}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1239139875
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5142406461740507829, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_Name
-      value: Spider
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142406461740507829, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142406461740507830, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142406461740507830, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.53067255
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142406461740507830, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.2192818
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142406461740507830, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -16.375702
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142406461740507830, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142406461740507830, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142406461740507830, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142406461740507830, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142406461740507830, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142406461740507830, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5142406461740507830, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
 --- !u!1001 &1261410003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6211,6 +6313,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -6227,6 +6333,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (16)
@@ -6372,6 +6482,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (38)
@@ -6482,6 +6596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -6546,6 +6664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -6562,6 +6684,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (44)
@@ -6677,6 +6803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -6693,6 +6823,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (20)
@@ -6803,6 +6937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -6867,6 +7005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -6931,6 +7073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -6995,6 +7141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -7059,6 +7209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -7123,6 +7277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -7187,6 +7345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -7296,6 +7458,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (26)
@@ -7358,6 +7524,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (10)
@@ -7420,6 +7590,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (11)
@@ -7477,6 +7651,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (45)
@@ -7539,6 +7717,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node
@@ -7649,6 +7831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -7665,6 +7851,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (32)
@@ -7727,6 +7917,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (47)
@@ -7837,6 +8031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -7901,6 +8099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -7965,6 +8167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -7981,6 +8187,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (51)
@@ -8091,6 +8301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -8155,6 +8369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -8219,6 +8437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -8235,6 +8457,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (23)
@@ -8345,6 +8571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -8361,6 +8591,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (22)
@@ -8471,6 +8705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -8535,6 +8773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -8599,6 +8841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -8663,6 +8909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -8727,6 +8977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -8743,6 +8997,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (1)
@@ -8805,6 +9063,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (25)
@@ -8860,67 +9122,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7709429121048909629, guid: 9a2653d617706474488febbb2953fe57, type: 3}
   m_PrefabInstance: {fileID: 1837793217}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1856180094
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3445277070051499323, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3445277070051499323, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.8662785
-      objectReference: {fileID: 0}
-    - target: {fileID: 3445277070051499323, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.31
-      objectReference: {fileID: 0}
-    - target: {fileID: 3445277070051499323, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -12.421657
-      objectReference: {fileID: 0}
-    - target: {fileID: 3445277070051499323, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3445277070051499323, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3445277070051499323, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3445277070051499323, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3445277070051499323, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3445277070051499323, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3445277070051499323, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3445277070051499325, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_Name
-      value: Boss
-      objectReference: {fileID: 0}
-    - target: {fileID: 3445277070051499325, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: aa2ba5a41337fa748b867c15f9ef86f6, type: 3}
 --- !u!1001 &1856232259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8976,6 +9177,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -9040,6 +9245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -9056,6 +9265,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (33)
@@ -9166,6 +9379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -9182,6 +9399,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (7)
@@ -9292,6 +9513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -9317,7 +9542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3384651393579659918, guid: ae39e08a0c313c94291a7d76ad525dcb, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3384651393579659918, guid: ae39e08a0c313c94291a7d76ad525dcb, type: 3}
       propertyPath: m_LocalScale.x
@@ -9468,6 +9693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: attackNode (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 2129163104318733637, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     m_RemovedComponents:
     - {fileID: 1587164696746992502, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
     - {fileID: 1587164696746992499, guid: 4de3e2b2a17ee784ca1c74329c9beb67, type: 3}
@@ -9484,6 +9713,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (50)
@@ -9546,6 +9779,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 937099915}
     m_Modifications:
+    - target: {fileID: 3893910745102717830, guid: 9a2653d617706474488febbb2953fe57, type: 3}
+      propertyPath: Enemy_animator
+      value: 
+      objectReference: {fileID: 132095963}
     - target: {fileID: 7709429121048909626, guid: 9a2653d617706474488febbb2953fe57, type: 3}
       propertyPath: m_Name
       value: parry_node (18)
