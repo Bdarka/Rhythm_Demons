@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Health_tracker : MonoBehaviour
 {
     public Text score_text;
     public int HP = 100;
+    public int game_over_level;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,11 @@ public class Health_tracker : MonoBehaviour
         {
             HP = 0;
         }
-        score_text.text = "Score: " + HP.ToString();
+
+        if (HP <= 0)
+        {
+            SceneManager.LoadScene(game_over_level);
+        }
+        score_text.text = "Health: " + HP.ToString();
     }
 }
