@@ -13,6 +13,7 @@ public class note_track_events : MonoBehaviour
     // Update is called once per frame
     void StartBeats()
     {
+      
         BS.has_started = true;
     }
 }

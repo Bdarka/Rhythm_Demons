@@ -682,7 +682,7 @@ GameObject:
   - component: {fileID: 188896523}
   m_Layer: 0
   m_Name: note_track
-  m_TagString: Untagged
+  m_TagString: BeatTracker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1915,7 +1915,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1994786301360008774, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1994786301360008775, guid: 7ef0a3bfd865644468c92d0baab7596e, type: 3}
       propertyPath: m_RootOrder
