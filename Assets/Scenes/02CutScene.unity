@@ -687,6 +687,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1224931239698988217, guid: fdb29093d5c0f064ebdbbca7344d8778, type: 3}
+      propertyPath: timer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdb29093d5c0f064ebdbbca7344d8778, type: 3}
 --- !u!1001 &8380019236934806068
@@ -696,6 +700,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8380019236390954210, guid: 69b1890206593324d9248dca9b5cda15, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8380019236722431301, guid: 69b1890206593324d9248dca9b5cda15, type: 3}
       propertyPath: m_Name
       value: intro cS
@@ -742,6 +750,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8380019236722431302, guid: 69b1890206593324d9248dca9b5cda15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8380019237462055305, guid: 69b1890206593324d9248dca9b5cda15, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8380019237462526981, guid: 69b1890206593324d9248dca9b5cda15, type: 3}

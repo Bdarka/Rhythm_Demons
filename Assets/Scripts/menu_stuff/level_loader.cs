@@ -14,7 +14,7 @@ public class level_loader : MonoBehaviour
     // Update is called once per frame
     public void loadMenuScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
     public void loadGameScene()
     {
