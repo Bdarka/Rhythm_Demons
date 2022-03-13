@@ -541,6 +541,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9115037178603310984, guid: 1963dd572d9576740b6779b4bb9afb8b, type: 3}
+      propertyPath: start_delay
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9115037178603310985, guid: 1963dd572d9576740b6779b4bb9afb8b, type: 3}
       propertyPath: m_Name
       value: note_track_Trap
@@ -551,7 +555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9115037178603310987, guid: 1963dd572d9576740b6779b4bb9afb8b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.26
+      value: 12.98
       objectReference: {fileID: 0}
     - target: {fileID: 9115037178603310987, guid: 1963dd572d9576740b6779b4bb9afb8b, type: 3}
       propertyPath: m_LocalPosition.y

@@ -1763,6 +1763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: note_track Mos
       objectReference: {fileID: 0}
+    - target: {fileID: 2062961295466715702, guid: 4b6da650b9e96cc498e78107a19056a0, type: 3}
+      propertyPath: start_delay
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2062961295466715703, guid: 4b6da650b9e96cc498e78107a19056a0, type: 3}
       propertyPath: m_RootOrder
       value: 7
