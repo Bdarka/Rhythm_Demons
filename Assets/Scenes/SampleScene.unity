@@ -958,6 +958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider
       objectReference: {fileID: 0}
+    - target: {fileID: 5142406461740507829, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5142406461740507830, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -1102,6 +1106,10 @@ PrefabInstance:
     - target: {fileID: 6027220540701244128, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9180468785484605591, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
+      propertyPath: m_Text
+      value: 'Combo Bonus: x1'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
