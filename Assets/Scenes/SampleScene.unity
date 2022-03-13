@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5baca1ba3f49334ea352a1cdc1b9f62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beat_tempo: 160
+  beat_tempo: 145
   has_started: 0
 --- !u!1 &82987643
 GameObject:
