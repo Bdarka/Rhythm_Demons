@@ -27,6 +27,7 @@ public class button_controller : MonoBehaviour
         ST = GameObject.FindGameObjectWithTag("ScoreTracker").transform.GetComponent<score_tracker>();
         HT = GameObject.FindGameObjectWithTag("HealthTracker").transform.GetComponent<Health_tracker>();
         MT = GameObject.FindGameObjectWithTag("MultiplierTracker").transform.GetComponent<multiplier_tracker>();
+        Enemy_Animator = GameObject.FindGameObjectWithTag("enemy").GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -60,6 +61,7 @@ public class button_controller : MonoBehaviour
                 }
                 else
                 {
+                    Enemy_Animator.SetTrigger("parry");
                     multiplier = 1;
                     CheckRay.transform.GetComponent<SphereCollider>().enabled=false;
                     CheckRay.transform.GetComponent<SpriteRenderer>().enabled = false;
