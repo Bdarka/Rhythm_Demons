@@ -18,6 +18,8 @@ public class button_controller : MonoBehaviour
     public KeyCode Attack_Key;
     public KeyCode Parry_Key;
 
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +37,7 @@ public class button_controller : MonoBehaviour
 
         input_release(Parry_Key);
         input_release(Attack_Key);
-
+        
     }
 
     void input_check(KeyCode key, string correct_tag)
@@ -49,10 +51,7 @@ public class button_controller : MonoBehaviour
                 if (CheckRay.transform.CompareTag(correct_tag))
                 {
                     CheckRay.transform.gameObject.SetActive(false);
-                    if (Enemy_Animator!=null)
-                    {
-                        AnimTrigger("bool", "Hit");
-                    }
+                    
                     multiplier += 1;
                     Debug.Log("Hit");
                     ST.UpdateText(10 * multiplier);
@@ -62,7 +61,8 @@ public class button_controller : MonoBehaviour
                 else
                 {
                     multiplier = 1;
-                    CheckRay.transform.gameObject.SetActive(false);
+                    CheckRay.transform.GetComponent<SphereCollider>().enabled=false;
+                    CheckRay.transform.GetComponent<SpriteRenderer>().enabled = false;
                     Debug.Log("Miss");
                     ST.UpdateText(-1);
                     HT.UpdateHealth(-10);
@@ -88,19 +88,14 @@ public class button_controller : MonoBehaviour
         }
     }
 
-    void AnimTrigger(string triggerType, string triggerName)
+    
+
+    IEnumerator Waiter(float waitTime)
     {
-        switch (triggerType)
-        {
-            case "bool":
-                Enemy_Animator.SetBool(triggerName, true);
-                break;
-            case "int":
-                Enemy_Animator.SetInteger(triggerName, 1);
-                break;
-            default:
-                Debug.Log("invalid animation type");
-                break;
-        }
+        Debug.Log("Waiting");
+        yield return new WaitForSeconds(waitTime);
+        Debug.Log("Waited");
+        yield return null;
     }
+
 }

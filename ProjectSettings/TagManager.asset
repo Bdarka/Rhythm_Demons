@@ -11,6 +11,7 @@ TagManager:
   - HealthTracker
   - MultiplierText
   - MultiplierTracker
+  - enemy
   layers:
   - Default
   - TransparentFX

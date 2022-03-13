@@ -4,37 +4,18 @@ using UnityEngine;
 
 public class note_obj : MonoBehaviour
 {
-    public bool can_be_pressed = false;
-    public KeyCode key_to_press;
+
+    public Animator Enemy_animator;
+    public string trigger_name;
     // Start is called before the first frame update
     void Start()
     {
-
+        Enemy_animator = GameObject.FindGameObjectWithTag("enemy").GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnDisable()
     {
-        if (can_be_pressed && Input.GetKeyDown(key_to_press))
-        {
-            gameObject.SetActive(false);
-            Destroy(this.gameObject);
-        }
+        Enemy_animator.SetTrigger(trigger_name);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "activator")
-        {
-            can_be_pressed = true;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.tag == "activator")
-        {
-            can_be_pressed = false;
-        }
-    }
 }

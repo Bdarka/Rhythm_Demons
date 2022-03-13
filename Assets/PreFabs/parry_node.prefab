@@ -83,6 +83,7 @@ GameObject:
   - component: {fileID: 7709429121048909629}
   - component: {fileID: 7709429121048909628}
   - component: {fileID: 5448433778666889894}
+  - component: {fileID: 3893910745102717830}
   m_Layer: 0
   m_Name: parry_node
   m_TagString: parry
@@ -169,3 +170,17 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.4934733
   m_Center: {x: -0.44568104, y: -0.051924415, z: -0.96071666}
+--- !u!114 &3893910745102717830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709429121048909626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0079e1801d1ae3b45a231476d9c4427a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy_animator: {fileID: 0}
+  trigger_name: parry
