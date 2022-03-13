@@ -1107,6 +1107,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7343143120089255809, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9180468785484605591, guid: 7221872ba0d6901429d3e84ee2969e5e, type: 3}
       propertyPath: m_Text
       value: 'Combo Bonus: x1'
