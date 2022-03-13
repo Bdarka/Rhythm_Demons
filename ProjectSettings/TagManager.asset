@@ -12,6 +12,7 @@ TagManager:
   - MultiplierText
   - MultiplierTracker
   - enemy
+  - BeatTracker
   layers:
   - Default
   - TransparentFX
