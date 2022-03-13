@@ -13,6 +13,7 @@ TagManager:
   - MultiplierTracker
   - enemy
   - BeatTracker
+  - GameMusic
   layers:
   - Default
   - TransparentFX
