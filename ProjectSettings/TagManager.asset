@@ -9,6 +9,8 @@ TagManager:
   - attack
   - ScoreTracker
   - HealthTracker
+  - MultiplierText
+  - MultiplierTracker
   layers:
   - Default
   - TransparentFX

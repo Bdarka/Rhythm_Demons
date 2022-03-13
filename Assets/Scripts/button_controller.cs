@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class button_controller : MonoBehaviour
 {
+    //public Animator Enemy_Animation_Controller;
     private SpriteRenderer SR;
     public Color pressed_color;
     public Color default_color;
     private score_tracker ST;
     private Health_tracker HT;
-    
+    private multiplier_tracker MT;
+
+    public int multiplier = 1;
 
     public KeyCode Attack_Key;
     public KeyCode Parry_Key;
@@ -20,6 +23,7 @@ public class button_controller : MonoBehaviour
         SR = GetComponentInParent<SpriteRenderer>();
         ST = GameObject.FindGameObjectWithTag("ScoreTracker").transform.GetComponent<score_tracker>();
         HT = GameObject.FindGameObjectWithTag("HealthTracker").transform.GetComponent<Health_tracker>();
+        MT = GameObject.FindGameObjectWithTag("MultiplierTracker").transform.GetComponent<multiplier_tracker>();
     }
 
     // Update is called once per frame
@@ -44,23 +48,29 @@ public class button_controller : MonoBehaviour
                 if (CheckRay.transform.CompareTag(correct_tag))
                 {
                     CheckRay.transform.gameObject.SetActive(false);
+                    multiplier += 1;
                     Debug.Log("Hit");
-                    ST.UpdateText(1);
+                    ST.UpdateText(10 * multiplier);
                     HT.UpdateHealth(5);
+                    MT.UpdateMultiplier(multiplier);
                 }
                 else
                 {
+                    multiplier = 1;
                     CheckRay.transform.gameObject.SetActive(false);
-                    Debug.Log("Miss"); 
+                    Debug.Log("Miss");
                     ST.UpdateText(-1);
                     HT.UpdateHealth(-10);
+                    MT.UpdateMultiplier(1);
                 }
             }
             else
             {
+                multiplier = 1;
                 Debug.Log("Miss");
                 ST.UpdateText(-1);
                 HT.UpdateHealth(-5);
+                MT.UpdateMultiplier(1);
             }
         }
     }
