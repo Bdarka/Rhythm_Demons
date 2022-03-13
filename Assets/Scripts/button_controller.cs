@@ -12,7 +12,7 @@ public class button_controller : MonoBehaviour
     private score_tracker ST;
     private Health_tracker HT;
     private multiplier_tracker MT;
-
+    [Range(1,3)]
     public int multiplier = 1;
 
     public KeyCode Attack_Key;
@@ -38,6 +38,7 @@ public class button_controller : MonoBehaviour
 
         input_release(Parry_Key);
         input_release(Attack_Key);
+        
         
     }
 

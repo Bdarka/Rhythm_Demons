@@ -153,6 +153,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &362119808 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5142406461740507831, guid: 6482f1b483aa49d43b69a4683a3276fa, type: 3}
+  m_PrefabInstance: {fileID: 5142406462066023864}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &408174755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -838,6 +843,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8817796911675486188, guid: ae39e08a0c313c94291a7d76ad525dcb, type: 3}
+      propertyPath: Enemy_Animator
+      value: 
+      objectReference: {fileID: 362119808}
     - target: {fileID: 8817796911675486188, guid: ae39e08a0c313c94291a7d76ad525dcb, type: 3}
       propertyPath: default_color.a
       value: 1

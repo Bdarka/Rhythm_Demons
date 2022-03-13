@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 3471793092687169084}
   m_Layer: 0
   m_Name: multiplier_tracker
-  m_TagString: MultiplierText
+  m_TagString: MultiplierTracker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
